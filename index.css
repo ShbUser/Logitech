@@ -1,0 +1,200 @@
+.body
+{
+    font-family: Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;   
+}
+
+html,body{
+    
+   overflow-x: hidden;
+}
+.brndStle{
+    font-size: smaller; 
+    font-weight: 100;
+}
+.brndStle a{
+    text-decoration: none;
+    color: black;
+}
+.brndStle a:hover{
+    text-decoration: none;
+}
+.headImg{
+    background-size: cover;
+   background-image: url("https://resource.logitech.com/w_64,h_22,c_scale,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/flags/in.jpg");
+}
+.p-locale-flag {
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+.headEN{
+    
+    font-weight: 600;    
+}
+.brandBTN{
+    font-size: medium; 
+    font-weight: 100;
+    background: none;    
+    border: none;    
+}
+.liPos li{
+    
+    background-color: white;
+    text-align: center;
+    width: 6rem;
+    list-style: none;
+    line-height: 3em;
+    border: 1px solid #f4f4f4;
+    border-top: none;
+    border-left: none;    
+    border-right: none;
+    
+}
+.deskImg{
+    
+    height: 700px;  
+    background-size:100%;   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https:\2f\2fresource.logitech.com\2fw_1800,h_1800,c_limit,q_auto,f_auto,dpr_1.0\2f d_transparent.gif\2f content\2f dam\2flogitech\2f en\2fhomepage\2flogi-options-plus-hpb-desktop.jpg?v=1");
+}
+.imgbanner{
+    
+    
+        height: 700px;  
+        background-size:100%;   
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-image: url("https://resource.logitech.com/w_1800,h_1800,c_limit,q_auto,f_auto,dpr_2.0/d_transparent.gif/content/dam/logitech/en/homepage/pcr-plastic-desktop.png?v=1");
+    
+}
+.imgbanner img{
+   margin-top: 8rem;
+   margin-left: 41rem;
+}
+.largefont{
+    font-size: larger;
+    font-weight: 700;
+    color: white;
+    margin-left: 28rem;
+}
+.imgbanner p{
+    font-size: medium;
+    font-weight: 500;
+    color: white;
+    margin-left: 38rem;
+}
+.imgbannerbtn{
+    font-size: medium;
+    font-weight: 500;
+    color: black;
+    height: 3.5em;
+    width: 21em;
+    margin-left: 37rem;
+    border: none;    
+}
+.img :hover{
+    border-color: white;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+}
+
+.ulBrnd{   
+    z-index: 1;
+    margin-left: -2.5em;   
+    position: absolute;
+}
+@media only screen and (max-width: 1050px) {
+    
+    .brndStleHide {display: none; }
+    .algnCntr{padding-left: 25%;}
+    .searchHide{ display: none; }    
+    
+  }
+  .navbar a{
+    color: black;
+    font-weight: 600;
+
+  }
+  .navbar a:hover{
+    background-color: white;
+    border-radius: 2em;
+    color: black;
+  }
+  .navbarStle{
+    width: 30%;
+    margin-left: 10em;
+    
+  }
+  .btn-outline{
+
+    font-family: "Overpass", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 700;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: white;
+    border-color: black;
+    background-color: black;
+    }
+
+    .hvrChange a:hover{
+        background-color:transparent;
+        color: black;
+        
+    }
+    .footFont{
+        color: white;
+        font-weight:bold 100;
+
+    }
+    .footFont-p{
+        color: white;
+        font-size: small;
+    }
+    .btnClor{
+        
+        display: inline-block;
+        width: 45px;
+        height: 48px;
+        padding: 0;
+        margin: 0;
+        background-color: #dcfd00;
+        border: none;
+        border-radius: 0;
+        cursor: pointer;
+        appearance: none;
+    }
+    .inputWidth{
+        width: 75%;
+    }
+    .btnmssngr{
+        width: 4rem;
+        height: 4rem;  
+        border: 0;      
+        border-radius: 50%;
+        overflow: hidden;
+        background: none;
+        position: fixed;
+        top: 40em;
+        
+    }
+   .ovrflwhdn{
+    overflow: hidden;
+   }
+    #img1 img,#img2 img,#img2 img,#img3 img,#img4 img{
+        width: 100%;
+        display: block;
+        transform: scale(1);
+        transition: 0.3s ease-in-out;
+    }
+    #img1 img:hover,#img2 img:hover,#img2 img:hover,#img3 img:hover,#img4:hover img{
+        transform: scale(1.1);
+    }
+     
